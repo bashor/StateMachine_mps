@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="28" endPosition="0" unitName="StateMachine.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="StateMachine_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="StateMachine.behavior.StateMachine_BehaviorDescriptor" />
+  <unitInfo fileName="State_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="StateMachine.behavior.State_BehaviorDescriptor" />
+  <unitInfo fileName="Transition_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="StateMachine.behavior.Transition_BehaviorDescriptor" />
+</debugInfo>
+
