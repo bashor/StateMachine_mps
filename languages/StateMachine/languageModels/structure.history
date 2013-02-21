@@ -24,5 +24,11 @@
     </dependencies>
     <rename id="3o03.7718442759803587169" type="CHILD" from="finaStates" to="finalStates" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="3o03" modelUID="r:9d8b4971-24bf-4330-9dd8-82a82fd584aa(StateMachine.structure)" version="3" />
+    </dependencies>
+    <rename id="3o03.5926053529034290390" type="CONCEPT" from="StateMachineOperation_step" to="StateMachineOperation_getState" />
+  </StructureModification>
 </history>
 

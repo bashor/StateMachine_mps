@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="StateMachine.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
+    <classNode dependClassName="StateMachine.behavior.StateMachineCreator_BehaviorDescriptor" />
+    <classNode dependClassName="StateMachine.behavior.StateMachineOperation_getState_BehaviorDescriptor" />
+    <classNode dependClassName="StateMachine.behavior.StateMachineOperation_step_BehaviorDescriptor" />
+    <classNode dependClassName="StateMachine.behavior.StateMachineType_BehaviorDescriptor" />
     <classNode dependClassName="StateMachine.behavior.StateMachine_BehaviorDescriptor" />
+    <classNode dependClassName="StateMachine.behavior.StateOperation_isFinal_BehaviorDescriptor" />
     <classNode dependClassName="StateMachine.behavior.State_BehaviorDescriptor" />
     <classNode dependClassName="StateMachine.behavior.Transition_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.String" />
@@ -10,12 +15,56 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
   </dependency>
+  <dependency className="StateMachine.behavior.StateMachineCreator_BehaviorDescriptor" file="StateMachineCreator_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.AbstractCreator_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="StateMachine.behavior.StateMachineOperation_BehaviorDescriptor" file="StateMachineOperation_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IOperation_Behavior" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IOperation_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="StateMachine.behavior.StateMachineOperation_getState_BehaviorDescriptor" file="StateMachineOperation_getState_BehaviorDescriptor.java">
+    <classNode dependClassName="StateMachine.behavior.StateMachineOperation_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="StateMachine.behavior.StateMachineOperation_step_BehaviorDescriptor" file="StateMachineOperation_step_BehaviorDescriptor.java">
+    <classNode dependClassName="StateMachine.behavior.StateMachineOperation_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="StateMachine.behavior.StateMachineType_BehaviorDescriptor" file="StateMachineType_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Type_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="StateMachine.behavior.StateMachine_BehaviorDescriptor" file="StateMachine_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Type_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="StateMachine.behavior.StateOperation_isFinal_BehaviorDescriptor" file="StateOperation_isFinal_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IOperation_Behavior" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IOperation_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />

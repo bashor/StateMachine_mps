@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="7n8gyj7wz1a9j1o3pwzi9lajnc35kmk">
+<dependencies version="2" modelHash="-4nzikacad3nwq6u3th9bteinch1e68f">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -8,10 +8,16 @@
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <common hash="-7x34ch8utl00sbt5efb6jfs0xaloafa">
+  <common hash="-8u4il04dh57hhxmcx93nv9hc9aajru0">
     <dep root="3557838854102708891" />
     <dep root="529915630471043238" />
     <dep root="529915630471043243" />
+    <dep root="5926053529034167386" />
+    <dep root="5926053529034196514" />
+    <dep root="5926053529034206388" />
+    <dep root="5926053529034211675" />
+    <dep root="5926053529034290390" />
+    <dep root="5926053529034297012" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -30,6 +36,24 @@
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="3557838854102708891" name="Transition" hash="5a8qgds2g4o00iqoj45t08znpe0io8r">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5926053529034167386" name="StateMachineType" hash="69m1x4tech938gsvbn0bady4o8txupd">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5926053529034196514" name="StateMachineCreator" hash="8wzt73j0tc4okvx0iqdfuvnt7l4fezb">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5926053529034206388" name="StateMachineOperation" hash="-4uetzycxwqmvbmmf9ck94nl7ivgif9b">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5926053529034211675" name="StateMachineOperation_step" hash="5laxzkd627tedoc4mis9doq4nxjl4l0">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5926053529034290390" name="StateMachineOperation_getState" hash="2vnzw2l8we0mga93fa451pfj1thb49v">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5926053529034297012" name="StateOperation_isFinal" hash="-8jk5j8t9t9t2s625nu8c384wutb3ydy">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

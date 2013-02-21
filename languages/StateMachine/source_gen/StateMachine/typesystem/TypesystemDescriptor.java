@@ -8,6 +8,14 @@ import jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime;
 public class TypesystemDescriptor extends BaseHelginsDescriptor {
   public TypesystemDescriptor() {
     {
+      InferenceRule_Runtime inferenceRule = new typeof_StateMachineOperation_step_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
+      InferenceRule_Runtime inferenceRule = new typeof_StateOperation_isFinal_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
       InferenceRule_Runtime inferenceRule = new typeof_Transition_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }

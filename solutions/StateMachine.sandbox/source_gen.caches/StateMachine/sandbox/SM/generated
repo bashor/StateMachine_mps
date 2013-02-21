@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="81wg1ls1aylw7pdut5gmqejw57jey02">
+<dependencies version="2" modelHash="-5p1glafl3wd5bx2vcnalflkdgplc8ys">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
-  <dep model="r:850d5e0b-a31e-419e-a3d6-554b84ec58fb(StateMachine.generator.template.main@generator)" hash="-1ysq41xgdk3phiv57a4a2b30ullvcai" />
+  <dep model="r:850d5e0b-a31e-419e-a3d6-554b84ec58fb(StateMachine.generator.template.main@generator)" hash="-1pxuzfwpzksydgngleku2jihr3jmbsl" />
+  <dep model="r:9d8b4971-24bf-4330-9dd8-82a82fd584aa(StateMachine.structure)" hash="-4nzikacad3nwq6u3th9bteinch1e68f" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  <common hash="24oihldjfeq9rujz7z51nx07ogdx1f2">
+  <common hash="-36djc59gkc4s34vtcygjee62xqipgdh">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="5905400043558863482" name="Machine" hash="6mn6f320myy0fago8na8slc9xbny7vx">
+  <source id="5905400043558863482" name="MultipleOf5" hash="7xy26tr9inuxwb64ystrjclz75wj3bn">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:850d5e0b-a31e-419e-a3d6-554b84ec58fb(StateMachine.generator.template.main@generator)" />
-    <file name="MachineStateMachine.java" />
+    <file name="MultipleOf5StateMachine.java" />
+  </source>
+  <source id="5926053529034162927" name="Main" hash="-12jdvavdoy7jh3j6k1n4uh9r5xb91sf">
+    <dep root="5905400043558863482" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:850d5e0b-a31e-419e-a3d6-554b84ec58fb(StateMachine.generator.template.main@generator)" />
+    <dep model="r:9d8b4971-24bf-4330-9dd8-82a82fd584aa(StateMachine.structure)" />
+    <file name="Main.java" />
   </source>
 </dependencies>
 

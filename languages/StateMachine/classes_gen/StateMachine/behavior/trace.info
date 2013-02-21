@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="28" endPosition="0" unitName="StateMachine.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="38" endPosition="0" unitName="StateMachine.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="StateMachineCreator_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="StateMachine.behavior.StateMachineCreator_BehaviorDescriptor" />
+  <unitInfo fileName="StateMachineOperation_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="35" endPosition="0" unitName="StateMachine.behavior.StateMachineOperation_BehaviorDescriptor" />
+  <unitInfo fileName="StateMachineOperation_getState_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="StateMachine.behavior.StateMachineOperation_getState_BehaviorDescriptor" />
+  <unitInfo fileName="StateMachineOperation_step_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="StateMachine.behavior.StateMachineOperation_step_BehaviorDescriptor" />
+  <unitInfo fileName="StateMachineType_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="StateMachine.behavior.StateMachineType_BehaviorDescriptor" />
   <unitInfo fileName="StateMachine_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="StateMachine.behavior.StateMachine_BehaviorDescriptor" />
+  <unitInfo fileName="StateOperation_isFinal_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="35" endPosition="0" unitName="StateMachine.behavior.StateOperation_isFinal_BehaviorDescriptor" />
   <unitInfo fileName="State_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="StateMachine.behavior.State_BehaviorDescriptor" />
   <unitInfo fileName="Transition_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="StateMachine.behavior.Transition_BehaviorDescriptor" />
 </debugInfo>

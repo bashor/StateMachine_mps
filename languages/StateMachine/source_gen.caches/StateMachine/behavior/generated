@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="bzt3mx0402vrqdfyaypcwpwlpxwt6ba">
+<dependencies version="2" modelHash="-chgyqmouh6a0tz2iyzcfedp26n1c7eu">
   <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
@@ -8,7 +8,7 @@
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
-  <dep model="r:9d8b4971-24bf-4330-9dd8-82a82fd584aa(StateMachine.structure)" hash="7n8gyj7wz1a9j1o3pwzi9lajnc35kmk" />
+  <dep model="r:9d8b4971-24bf-4330-9dd8-82a82fd584aa(StateMachine.structure)" hash="-4nzikacad3nwq6u3th9bteinch1e68f" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
   <common dependsOnNodes="true">
@@ -24,7 +24,13 @@
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="BehaviorAspectDescriptor.java" />
+    <file name="StateMachineCreator_BehaviorDescriptor.java" />
+    <file name="StateMachineOperation_BehaviorDescriptor.java" />
+    <file name="StateMachineOperation_getState_BehaviorDescriptor.java" />
+    <file name="StateMachineOperation_step_BehaviorDescriptor.java" />
+    <file name="StateMachineType_BehaviorDescriptor.java" />
     <file name="StateMachine_BehaviorDescriptor.java" />
+    <file name="StateOperation_isFinal_BehaviorDescriptor.java" />
     <file name="State_BehaviorDescriptor.java" />
     <file name="Transition_BehaviorDescriptor.java" />
   </common>

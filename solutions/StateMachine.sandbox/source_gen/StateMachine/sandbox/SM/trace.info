@@ -1,29 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="5905400043558863482" modelId="r:2a6dde97-8fb7-48b1-bf1b-7904d9e1a50e(StateMachine.sandbox.SM)">
-    <nodeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="19" startPosition="10" endLine="19" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="14" startPosition="17" endLine="15" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="16" startPosition="9" endLine="17" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="19" startPosition="10" endLine="20" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="6" startPosition="34" endLine="8" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="state" />
-    <nodeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="28" startPosition="0" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="EStates#()V" />
-    <nodeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="13" startPosition="10" endLine="16" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="13" startPosition="10" endLine="16" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="10" startPosition="35" endLine="22" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.SwitchStatement" />
-    <nodeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="9" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="step#(Ljava/lang/Integer;)V" />
-    <scopeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="21" startPosition="14" endLine="21" endPosition="14" />
-    <scopeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="29" startPosition="15" endLine="29" endPosition="15" />
-    <scopeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="14" startPosition="17" endLine="15" endPosition="80" />
-    <scopeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="19" startPosition="10" endLine="20" endPosition="14" />
-    <scopeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="28" startPosition="0" endLine="30" endPosition="5" />
-    <scopeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="13" startPosition="10" endLine="16" endPosition="9" />
-    <scopeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="13" startPosition="10" endLine="17" endPosition="14" />
-    <scopeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="10" startPosition="35" endLine="22" endPosition="5" />
-    <scopeInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="9" startPosition="0" endLine="24" endPosition="0">
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="6" startPosition="38" endLine="7" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="state" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="12" startPosition="27" endLine="13" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="14" startPosition="9" endLine="15" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="17" startPosition="27" endLine="18" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="20" startPosition="27" endLine="21" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="22" startPosition="9" endLine="23" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="25" startPosition="27" endLine="26" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="28" startPosition="27" endLine="29" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="30" startPosition="9" endLine="31" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="33" startPosition="27" endLine="34" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="36" startPosition="27" endLine="37" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="38" startPosition="9" endLine="39" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="41" startPosition="27" endLine="42" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="44" startPosition="27" endLine="45" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="46" startPosition="9" endLine="47" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="49" startPosition="27" endLine="50" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="51" startPosition="9" endLine="52" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="57" startPosition="52" endLine="58" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="68" startPosition="0" endLine="69" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="isFinal" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="71" startPosition="29" endLine="72" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="75" startPosition="30" endLine="76" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="11" startPosition="20" endLine="14" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="16" startPosition="16" endLine="19" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="19" startPosition="9" endLine="22" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="24" startPosition="16" endLine="27" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="27" startPosition="9" endLine="30" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="32" startPosition="16" endLine="35" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="35" startPosition="9" endLine="38" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="40" startPosition="16" endLine="43" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="43" startPosition="9" endLine="46" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="48" startPosition="16" endLine="51" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="70" startPosition="0" endLine="73" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="EState#(Z)V" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="56" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getState#()LStateMachine/sandbox/SM/MultipleOf5StateMachine/EState;" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="74" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isFinal#()Z" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="9" startPosition="37" endLine="54" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+    <nodeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="8" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="step#(Ljava/lang/Character;)V" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="53" startPosition="14" endLine="53" endPosition="14" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="12" startPosition="27" endLine="13" endPosition="54" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="17" startPosition="27" endLine="18" endPosition="54" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="20" startPosition="27" endLine="21" endPosition="54" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="25" startPosition="27" endLine="26" endPosition="54" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="28" startPosition="27" endLine="29" endPosition="54" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="33" startPosition="27" endLine="34" endPosition="54" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="36" startPosition="27" endLine="37" endPosition="54" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="41" startPosition="27" endLine="42" endPosition="54" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="44" startPosition="27" endLine="45" endPosition="54" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="49" startPosition="27" endLine="50" endPosition="54" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="57" startPosition="52" endLine="58" endPosition="17" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="71" startPosition="29" endLine="72" endPosition="29" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="75" startPosition="30" endLine="76" endPosition="21" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="70" startPosition="0" endLine="73" endPosition="5">
+      <varInfo nodeId="5905400043558863482" varName="isFinal" />
+    </scopeInfo>
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="11" startPosition="20" endLine="15" endPosition="14" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="48" startPosition="16" endLine="52" endPosition="14" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="16" startPosition="16" endLine="23" endPosition="14" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="24" startPosition="16" endLine="31" endPosition="14" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="32" startPosition="16" endLine="39" endPosition="14" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="40" startPosition="16" endLine="47" endPosition="14" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="9" startPosition="37" endLine="54" endPosition="5" />
+    <scopeInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="8" startPosition="0" endLine="56" endPosition="0">
       <varInfo nodeId="5905400043558863482" varName="token" />
     </scopeInfo>
-    <unitInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="25" startPosition="0" endLine="32" endPosition="0" unitName="StateMachine.sandbox.SM.MachineStateMachine$EStates" />
-    <unitInfo nodeId="5905400043558863482" fileName="MachineStateMachine.java" startLine="6" startPosition="0" endLine="33" endPosition="0" unitName="StateMachine.sandbox.SM.MachineStateMachine" />
+    <unitInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="61" startPosition="0" endLine="79" endPosition="0" unitName="StateMachine.sandbox.SM.MultipleOf5StateMachine$EState" />
+    <unitInfo nodeId="5905400043558863482" fileName="MultipleOf5StateMachine.java" startLine="6" startPosition="0" endLine="80" endPosition="0" unitName="StateMachine.sandbox.SM.MultipleOf5StateMachine" />
+  </root>
+  <root nodeId="5926053529034162927" modelId="r:2a6dde97-8fb7-48b1-bf1b-7904d9e1a50e(StateMachine.sandbox.SM)">
+    <nodeInfo nodeId="5926053529034312247" fileName="Main.java" startLine="7" startPosition="52" endLine="8" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5926053529034312254" fileName="Main.java" startLine="9" startPosition="43" endLine="10" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5926053529034312272" fileName="Main.java" startLine="11" startPosition="5" endLine="12" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5926053529034311867" fileName="Main.java" startLine="15" startPosition="42" endLine="16" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5926053529034311972" fileName="Main.java" startLine="21" startPosition="8" endLine="22" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5926053529034312252" fileName="Main.java" startLine="8" startPosition="68" endLine="11" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="5926053529034312405" fileName="Main.java" startLine="17" startPosition="28" endLine="21" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5926053529034311946" fileName="Main.java" startLine="16" startPosition="62" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5926053529034312241" fileName="Main.java" startLine="6" startPosition="19" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="testMultipleOf5#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="5926053529034162929" fileName="Main.java" startLine="14" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <scopeInfo nodeId="5926053529034312253" fileName="Main.java" startLine="9" startPosition="43" endLine="10" endPosition="33" />
+    <scopeInfo nodeId="5926053529034312252" fileName="Main.java" startLine="8" startPosition="68" endLine="11" endPosition="5">
+      <varInfo nodeId="5926053529034312262" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="5926053529034312244" fileName="Main.java" startLine="7" startPosition="52" endLine="12" endPosition="40">
+      <varInfo nodeId="5926053529034312248" varName="machine" />
+    </scopeInfo>
+    <scopeInfo nodeId="5926053529034311947" fileName="Main.java" startLine="17" startPosition="28" endLine="22" endPosition="62">
+      <varInfo nodeId="5926053529034312406" varName="res" />
+    </scopeInfo>
+    <scopeInfo nodeId="5926053529034311946" fileName="Main.java" startLine="16" startPosition="62" endLine="23" endPosition="5">
+      <varInfo nodeId="5926053529034311949" varName="in" />
+    </scopeInfo>
+    <scopeInfo nodeId="5926053529034312241" fileName="Main.java" startLine="6" startPosition="19" endLine="14" endPosition="0">
+      <varInfo nodeId="5926053529034312284" varName="in" />
+    </scopeInfo>
+    <scopeInfo nodeId="5926053529034162935" fileName="Main.java" startLine="15" startPosition="42" endLine="23" endPosition="5">
+      <varInfo nodeId="5926053529034311868" varName="test" />
+    </scopeInfo>
+    <scopeInfo nodeId="5926053529034162929" fileName="Main.java" startLine="14" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="5926053529034162930" varName="args" />
+    </scopeInfo>
+    <unitInfo nodeId="5926053529034162927" fileName="Main.java" startLine="6" startPosition="0" endLine="26" endPosition="0" unitName="StateMachine.sandbox.SM.Main" />
   </root>
 </debugInfo>
 

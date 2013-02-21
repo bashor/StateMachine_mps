@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"StateMachine.structure.State", "StateMachine.structure.StateMachine", "StateMachine.structure.Transition"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"StateMachine.structure.State", "StateMachine.structure.StateMachine", "StateMachine.structure.StateMachineCreator", "StateMachine.structure.StateMachineOperation_getState", "StateMachine.structure.StateMachineOperation_step", "StateMachine.structure.StateMachineType", "StateMachine.structure.StateOperation_isFinal", "StateMachine.structure.Transition"};
 
   public BehaviorAspectDescriptor() {
   }
@@ -18,8 +18,18 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new State_BehaviorDescriptor();
       case 1:
         return new StateMachine_BehaviorDescriptor();
-      case 2:
+      case 7:
         return new Transition_BehaviorDescriptor();
+      case 5:
+        return new StateMachineType_BehaviorDescriptor();
+      case 2:
+        return new StateMachineCreator_BehaviorDescriptor();
+      case 4:
+        return new StateMachineOperation_step_BehaviorDescriptor();
+      case 3:
+        return new StateMachineOperation_getState_BehaviorDescriptor();
+      case 6:
+        return new StateOperation_isFinal_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
